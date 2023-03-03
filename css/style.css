@@ -1,0 +1,195 @@
+@font-face {
+  font-family: "clashgrotesk";
+  src: url("/assets/fonts/ClashGrotesk/ClashGrotesk-Regular.ttf") format("truetype");
+  font-weight: 400; }
+@font-face {
+  font-family: "clashgrotesk";
+  src: url("/assets/fonts/ClashGrotesk/ClashGrotesk-Medium.ttf") format("truetype");
+  font-weight: 500; }
+@font-face {
+  font-family: "clashgrotesk";
+  src: url("/assets/fonts/ClashGrotesk/ClashGrotesk-Semibold.ttf") format("truetype");
+  font-weight: 600; }
+@font-face {
+  font-family: "inter";
+  src: url("/assets/fonts/Inter/Inter-Regular.ttf") format("truetype");
+  font-weight: 400; }
+@font-face {
+  font-family: "inter";
+  src: url("/assets/fonts/Inter/Inter-Medium.ttf") format("truetype");
+  font-weight: 500; }
+body {
+  background-color: #f6f5f9;
+  font-family: Inter, sans-serif;
+  color: #636369;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 500; }
+
+p
+h1,
+h2,
+h3,
+h4 {
+  font-family: clashgrotesk; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0; }
+
+h1 {
+  color: #121212;
+  font-size: 4rem;
+  line-height: 1.25;
+  font-weight: 600;
+  font-family: clashgrotesk; }
+
+h4 {
+  color: #121212;
+  font-size: 1.5rem;
+  line-height: 1.33;
+  font-weight: 600; }
+
+p {
+  font-family: Inter, sans-serif; }
+
+.padding-global {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem; }
+
+.container-large {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100%;
+  max-width: 80rem; }
+
+.btn {
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 0.125rem;
+  background-color: #121212;
+  font-family: Clashgrotesk, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  transition: 0.5s; }
+
+.btn1::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 7px;
+  left: -8px;
+  box-sizing: border-box;
+  transition: top 0.5s, left 0.5;
+  border-left: 2px solid #121212;
+  border-bottom: 2px solid #121212; }
+
+.btn1:hover::before {
+  top: 0px;
+  left: 0px;
+  transition: 0.3s; }
+
+.btn-form {
+  margin-left: 20px;
+  margin-bottom: 5px; }
+
+.form-inputfield {
+  padding: 1.625rem 0.75rem;
+  border-color: #121212;
+  font-family: Inter, sans-serif;
+  color: #636369;
+  font-size: 1rem;
+  height: 38px; }
+
+header nav {
+  border-color: #636369; }
+header .header-content-wrapper {
+  margin-top: 6.25rem;
+  max-width: 43rem; }
+header .header-img {
+  padding-top: 6.5rem; }
+
+.feature_wrapper {
+  margin-top: 130px; }
+  .feature_wrapper .feature_row2 {
+    margin-top: 8.75rem; }
+
+.footer-group {
+  position: relative;
+  display: block; }
+  .footer-group .cta {
+    width: 95%;
+    position: absolute;
+    left: 0%;
+    top: -16.5%;
+    right: 0%;
+    bottom: auto;
+    display: block;
+    width: 100%; }
+    .footer-group .cta .cta-bg {
+      background: #00CC74; }
+  .footer-group .form_footer {
+    margin-top: 3rem; }
+  .footer-group .footer {
+    background: #121212;
+    padding-bottom: 156px;
+    padding-top: 420px; }
+    .footer-group .footer .footer_content {
+      margin-top: 5rem; }
+    .footer-group .footer .footer-icons {
+      column-gap: 1.25rem; }
+
+@media screen and (max-width: 479px) {
+  .padding-global {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem; }
+
+  .cta-title {
+    font-size: 1.8rem !important;
+    line-height: 1.25 !important; }
+
+  .form-block {
+    flex-direction: column;
+    align-items: stretch; }
+
+  .btn-form {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 8px; } }
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem; }
+
+  h4 {
+    font-size: 1rem; }
+
+  header .header-content-wrapper {
+    margin-top: 3rem; }
+  header .header-description {
+    font-size: 1rem;
+    line-height: 1.5; }
+  header .header-img {
+    padding-top: 4rem; }
+
+  .feature_wrapper {
+    margin-top: 3.5rem; }
+    .feature_wrapper .feature_row2 {
+      margin-top: 5rem; }
+
+  .footer {
+    padding-bottom: 5rem;
+    padding-top: 300px; }
+
+  .cta-title {
+    font-size: 3.1rem;
+    line-height: 1.25; } }
+
+/*# sourceMappingURL=style.css.map */
